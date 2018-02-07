@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SAMSUNG Mobile Store</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Anshul Kothari">
+		<meta name="keyword" content="Samsung,Mobile Store, Mobile Phone, Galaxy S5">
+		<link rel="stylesheet" href = "css/custom.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+		<!-- code snippet just to trigger css transition on menu icon click-->
+		<script>
+			var menu = false;
+			function fun(){
+				if(menu){
+					document.getElementById("nav").style.left = "-200px";
+					document.getElementById("content").style.width = "100%";
+					
+
+				}else{
+					document.getElementById("nav").style.left = "0";
+					document.getElementById("content").style.width = "90%";
+					
+
+				}
+				menu = !menu;
+			}
+		</script>
+	</head>-
+	<body> 
+		<!-- body contains three elements header, nav and iframe (for displaying html pages when user clicks on the links in nav bar) -->
+		<header>
+			<div class = "menu-wrap">
+				<img id="menu" src="img/me.png" alt = "menu" onclick="fun()" style= "border-radius:15px;">
+			</div>
+			
+			<div class="header-wrap">
+				<h2>
+					SAMSUNG Mobile Store
+				</h2>
+			</div>
+			
+		</header>
+		<!-- vertical navigation bar and have css transition to pull and push back via menu icon click event -->
+		<nav id = "nav"> 
+			<h4>OUR PRODUCTS</h4>
+			<ul>
+				<!-- List of available products in the company, this can be changed according to the requirements -->
+				<li><a href="s8.html" target ="content">GALAXY S8</a></li>
+				<li><a href="">GALAXY S8</a></li>
+				<li><a href="">GALAXY S1</a></li>
+				<li><a href="">GALAXY S2</a></li>
+				<li><a href="">GALAXY S3</a></li>
+				<li><a href="">GALAXY S4</a></li>
+				<li><a href="">GALAXY S5</a></li>
+				<li><a href="">GALAXY S6</a></li>
+				<li><a href="">GALAXY S7</a></li>
+				<li><a href="">GALAXY S9</a></li>
+				<li><a href="">GALAXY S10</a></li>
+				<li><a href="">GALAXY S1</a></li>
+				<li><a href="">GALAXY S2</a></li>
+				<li><a href="">GALAXY S3</a></li>
+				<li><a href="">GALAXY S4</a></li>
+				<li><a href="">GALAXY S5</a></li>
+				
+				
+			</ul>
+		</nav>
+		<!-- main section to contain details about the specific product -->	
+		<iframe id = "content" frameborder="0" name = "content"> Your Browser does not support Iframe try another browser</iframe>
+		
+		
+
+	</body>
+</html>

@@ -1,0 +1,110 @@
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#050755;
+
+}
+
+
+article {
+	display: flex;
+	height: 276px;
+	justify-content: center;
+}
+#hero-unit h1 {
+	font-size: 55px;
+	color: white;
+}
+#hero-unit div {
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	display: flex;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#col3 div{
+	flex:1;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#col3 img {
+	width:254
+	height:192px;
+	margin: auto;
+}
+
+div article {
+	flex:1;
+}
+article li {
+	list-style-type: none;
+	padding: 10px;
+	font-size: 20px;
+	
+	margin:10px;
+	
+}
+#hero-unit {
+	background-image: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:500px;
+}
+#hero-unit img {
+	width: 19px;
+	height: 192px;
+	margin-right: 0;
+
+	
+}
+#hero-unit ul {
+	margin: auto;
+	padding: 0;
+
+
+}
+#wrap {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	display: flex;
+	background: rgba(0,0,0,0.2);
+
+}
+footer div {
+	padding:50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+footer div img {
+	width:24px;
+	
+	
+}
+#comments {
+	display: flex;
+
+}
+#comments div {
+	display: flex;
+	flex:1;
+	background: white;
+}
+.cut-head {
+	text-align: center;
+	font-size: 30px;
+}
