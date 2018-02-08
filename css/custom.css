@@ -71,6 +71,7 @@ iframe{
 	z-index:-1;
 	margin-top:8vh;
 	height:100vh;
+	border:0;
 }
 
 article {

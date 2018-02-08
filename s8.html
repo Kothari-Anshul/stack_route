@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Galaxy S8</title>
 		<link rel="stylesheet" href="css/s8.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	</head>
 	<body>
 
-		<section>
-			<!-- section contains heading article pairs, each article's layout is set using flex box-->
-			<h1 class ="cut-head">GALAXY S8</h1>
+		<article>
+			<!-- section contains heading section pairs, each section's layout is set using flex box-->
+			
+			<h2 style="display: none">Details of the SAMSUNG Galaxy S8</h2>
 			<!-- Hero unit with background attachment property i.e parallax effect-->
-			<article id = "hero-unit">
-				<div>
-					<h1>Unbox your phone</h1>
-				</div>
-				<div></div>
-			</article>
-			<h1 class="cut-head">AVAILABLE IN 3 AWESOME COLORS</h1>
-			<!-- 3 col layout using flex-box-->
-			<article id = "col3">
-				<div>
-					<img src="img/b.jpeg" alt="s8">
-					<h4>Pure Black</h4>
-				</div>
-				<div>
-					<img src="img/c.jpeg" alt="s8">
-					<h4>Golden</h4>
-				</div>
-				<div>
-					<img src="img/d.jpeg" alt="s8">
-					<h4>Orchid Grey</h4>
-				</div>
-				
-				
-			</article>
-			<h1 class="cut-head">OUR CUSTOMERS</h1>
-			<!-- 2 col layout with further 3 subdivisions-->
-			<article id = "comments">
+			<section style="height:580px;">
+				<h2>GALAXY S8</h2>
+				<div id = "hero-unit">
+					<div>
+						<h2>Unbox your phone</h2>
+					</div>
 
-				<div style="align-items: center; justify-content: center;">
-					<img src="img/sf.png" alt="star full">
-					<img src="img/sf.png" alt="star full">
-					<img src="img/sf.png" alt="star full">
-					<img src="img/sf.png" alt="star full">
-					<img src="img/sh.png" alt="star null">
+					<div></div>
+				</div>
+
+			</section>
+			
+			<!-- 3 col layout using flex-box-->
+			<section>
+				<h2>AVAILABLE IN 3 AWESOME COLORS</h2>
+				<div id = "col3" >
+					<div>
+						<img src="img/b.jpeg" alt="s8">
+						<h4>Pure Black</h4>
+					</div>
+					<div>
+						<img src="img/c.jpeg" alt="s8">
+						<h4>Golden</h4>
+					</div>
+					<div>
+						<img src="img/d.jpeg" alt="s8">
+						<h4>Orchid Grey</h4>
+					</div>
+				</div>
 				
-				</div>
-				<div id = "com" style="flex-direction: column; overflow: auto;">
-					<p>
-						<i>Author: Anshul Kothari</i><br>
-						Date: 02/01/2018<br>
-						The is one of the best phone I have ever used, but it is some what costly then it might seem.
-					</p>
-					<p>
-						<i>Author: Aman Kothari</i><br>
-						Date: 02/01/2018<br>
-						Awesome phone, I liked it!
-					</p>
-					<p>
-						<i>Author: Aayush Sharma</i><br>
-						Date: 02/01/2018<br>
-						Foldable screen is nice.
-					</p>
-					<p>
-						<i>Author: Jacob Sharma</i><br>
-						Date: 02/01/2018<br>
-						Battery back up is super cool!
-					</p>
+				
+			</section>
+			
+			<!-- 2 col layout with further 3 subdivisions-->
+			<section>
+				<h2>OUR CUSTOMERS</h2>
+				<div id="comments">
+					<div style="align-items: center; justify-content: center;">
+						<img src="img/sf.png" alt="star full">
+						<img src="img/sf.png" alt="star full">
+						<img src="img/sf.png" alt="star full">
+						<img src="img/sf.png" alt="star full">
+						<img src="img/sh.png" alt="star null">
 					
+					</div>
+					<article id = "comment-box">
+						<h2 style="display: none;">Comment Box</h2>
+						<p>
+							<i>Author: Anshul Kothari</i><br>
+							Date: 02/01/2018<br>
+							The is one of the best phone I have ever used, but it is some what costly then it might seem.
+						</p>
+						<p>
+							<i>Author: Aman Kothari</i><br>
+							Date: 02/01/2018<br>
+							Awesome phone, I liked it!
+						</p>
+						<p>
+							<i>Author: Aayush Sharma</i><br>
+							Date: 02/01/2018<br>
+							Foldable screen is nice.
+						</p>
+						<p>
+							<i>Author: Jacob Sharma</i><br>
+							Date: 02/01/2018<br>
+							Battery back up is super cool!
+						</p>
+						
+					</article>
 				</div>
-			</article>
+			</section>
 			<!-- footer with -->
 			<footer>
 				<div style="flex:5">
-					Copyright 2018 &copy All Rights Reserverd by SAMSUNG.
+					Copyright 2018 &copy; All Rights Reserverd by SAMSUNG.
 				</div>
 				<div style="flex:1">
 					<a><img src="img/f.png" alt="facebook"></a>
@@ -84,6 +97,6 @@
 				</div>
 				
 			</footer>
-		</section>
+		</article>
 	</body>
 </html>
