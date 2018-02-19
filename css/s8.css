@@ -11,6 +11,7 @@ section {
 	height: 400px;
 	flex-direction: column;
 }
+
 section h2 {
 	flex:1;
 	text-align: center;
@@ -22,31 +23,45 @@ div {
 	box-sizing: border-box;
 	padding: 10px;
 }
+#hero-unit {
+	height: 580px;
+	background-image: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
 
-#hero-unit h2 {
-	font-size: 55px;
-	color: white;
-	text-align: center;
 }
-#hero-unit div , #col3 div{
 
+
+
+#hero-unit div, #col3 div{
+	flex-direction: column;
 	flex:1;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	box-sizing: border-box;
+	padding:10px;
+	
+	
+	
 	
 }
-
-
-#hero-unit {
-	display:flex;
-	flex:15;
-	background-image: url("../img/cover.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    
+#hero-unit h4{
+	text-align: center;
+	color:white;
+	font-size: 35px;
+	margin:0;
 }
+#hero-unit h3{
+	text-align: center;
+	color:white;
+	font-size: 55px;
+	margin:0;
+}
+
 
 #col3 {
 	flex:15;
@@ -61,6 +76,9 @@ div {
 }
 #col3 div {
 	flex-direction: column;
+}
+#col3 h4 {
+	text-align:center;
 }
 
 #comments {
@@ -80,6 +98,8 @@ div {
 	flex-direction: column;
 	overflow: auto;
 }
+
+
 
 footer {
 	display: flex;

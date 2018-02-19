@@ -66,12 +66,14 @@ iframe{
 	transition: width 1s;
 	margin:0;
 	width:100vw;
-	background: white;
 	float:right;
 	z-index:-1;
 	margin-top:8vh;
+	/*height:224vh;*/
 	height:100vh;
 	border:0;
+	
+
 }
 
 article {
