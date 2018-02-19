@@ -4,6 +4,12 @@ body {
 	color:#050755;
 }
 
+.header-wrap li {
+	display: inline;
+	padding-right: 10px;
+	padding-left:10px;
+}
+
 #menu {
 	width:20px;
 	height:20px;
@@ -15,14 +21,14 @@ body {
 	width: 5%;
 	flex-basis:5%;
 	display:flex;
-	margin-right: 70%;
+	margin-right: 35%;
 }
 
 .header-wrap {
-	flex-basis: 35%;
+	flex-basis: 70%;
 	background: white;
 	display:flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 	background:#050755;
 }
